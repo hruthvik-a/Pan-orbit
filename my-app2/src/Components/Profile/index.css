@@ -1,0 +1,47 @@
+.main-container{
+     display: flex;
+}
+.sidenav{
+     background-color: #3F55C8;
+     margin-left: 20vh;
+     margin-top: 10vh;
+     width: 200px;
+     height: 84vh;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: column;
+}
+.nav-link{
+     color: aliceblue;
+     font-size: 14px;
+     cursor: pointer;
+}
+.active{
+     display: flex;
+     align-items: center;
+}
+.notch-container{
+     position: relative;
+     display: flex;
+     margin-left: auto;
+}
+.notch,.opposite-notch1,.opposite-notch2{
+     width: 20px;
+     height: 20px;
+}
+.notch{
+     background-color: #FFFFFF;
+     transform: translate(170%,40%);
+     border-radius: 50%;
+}
+.opposite-notch1{
+     background-color:#FFFFFF;
+     transform: translate(50%);
+     border-radius: 50%;
+}
+/* content style */
+.content-container{
+     margin-left: 05vw;
+     margin-top: 10vh;
+     width: 60%;
+}

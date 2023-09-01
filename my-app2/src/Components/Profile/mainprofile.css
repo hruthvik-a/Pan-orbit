@@ -1,0 +1,149 @@
+.vertical-line {
+     border-left: 2px solid lightslategray;
+     height: 70vh;
+}
+
+.profile-container {
+     display: flex;
+}
+
+.profile-1 {
+     width: 40%;
+}
+
+.profile-2 {
+     margin-left: 10px;
+     width: 35vw
+}
+
+.profile-image {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+}
+
+.user-info {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.user-info p {
+     display: flex;
+     align-items: center;
+     /* Vertical center alignment */
+     margin: 0px 0;
+}
+
+.user-info .label {
+     color: #9A9A9A;
+     font-weight: 500;
+}
+
+.user-info .value {
+     margin-left: 5px;
+     color: #545454;
+     font-weight: 600;
+}
+
+.name-image-profile {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.name-image-profile p {
+     margin: 5px 0;
+     margin-left: 10px;
+     color: #545454;
+     font-weight: 600;
+}
+
+.profile-company {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.profile-company .value {
+     margin-left: 5px;
+     color: #545454;
+     font-weight: 600;
+}
+
+.profile-company .label {
+     color: #9A9A9A;
+     font-weight: 500;
+}
+
+.profile-company p {
+     display: flex;
+     align-items: center;
+     margin: 0px 0;
+}
+
+
+.profile-2 .label,
+.heading {
+     color: #9A9A9A;
+     font-weight: 500;
+}
+
+.profile-2 .value {
+     margin-left: 5px;
+     color: #545454;
+     font-weight: 600;
+}
+
+.map-container {
+     display: flex;
+     flex-direction: column;
+}
+
+.map {
+     display: flex;
+     gap: 5px;
+     margin-left: auto;
+}
+
+.map .value {
+     margin-left: 5px;
+     color: #545454;
+     font-weight: 600;
+     font-size: 10px;
+}
+
+.map .label {
+     color: #9A9A9A;
+     font-weight: 500;
+     font-size: 10px;
+}
+
+.chatbox-container {
+     margin-left: 20vw;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background: #2C65C8;
+     height: 40px;
+     display: flex;
+     align-items: center;
+
+}
+
+.svg-container {
+     margin-left: 2vw;
+     padding: 01px;
+}
+
+.chatbox-container p {
+     color: white;
+     font-weight: 500;
+     padding: 5px;
+}
+
+.arrow-svg {
+     padding: 0 10px 0 0;
+     margin-left: auto;
+}
